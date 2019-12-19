@@ -3,7 +3,7 @@
 
 ![Screenshoot](/shelly.png)
 <br>
-Shelly adalah sebuah tool sederhana yang ditulis menggunakan Python, yang berfungsi untuk membuat backdoor pada website
+Shelly adalah sebuah tool sederhana yang ditulis menggunakan Python, yang berfungsi untuk meremote sebuah website
 <br>
 ### Instalation :
 
