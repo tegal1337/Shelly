@@ -11,12 +11,12 @@ print ("""
 /___/_//_\__/_/_/\_, / 
                 /___/  v.1
 --------------------------
-\033[92mPython shell - Tegal1337 |
-\033[92mGenerate : \033[92m
-[+] \033[94m./shell.py -g "nama_shell" -p "password"
-\033[92mConnect Server : \033[92m
-[+] \033[94m./shell.py -u "url_shell" -p "password"
-\033[92m""")
+Python shell - Tegal1337 |
+Generate : 
+[+] ./shell.py -g "nama_shell" -p "password"
+Connect Server :
+[+] ./shell.py -u "url_shell" -p "password"
+""")
 
 parser = ArgumentParser()
 parser.add_argument("-url", dest="shell_url", action="store",
