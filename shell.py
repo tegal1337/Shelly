@@ -13,9 +13,9 @@ print ("""
 --------------------------
 Python shell - Tegal1337 |
 Generate : 
-[+] ./backdoor.py -g "nama_shell" -p "password"
+[+] ./shell.py -g "nama_shell" -p "password"
 Connect Server :
-[+] ./backdoor.py -u "url_shell" -p "password"
+[+] ./shell.py -u "url_shell" -p "password"
 """)
 
 parser = ArgumentParser()
