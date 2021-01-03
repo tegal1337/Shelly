@@ -69,6 +69,5 @@ SecFilterScanPOST Off
 
 ### Contact :
 <ul>
-  <li> Email : contact@dalpan.co</li>
-  <li> FB : fb.com/dalpan.me
+  <li> Email : van@tegalsec.org</li>
 </ul>
