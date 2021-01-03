@@ -64,7 +64,7 @@ SecFilterScanPOST Off
 
 ### Artikel :
 <ul>
-   <li>https://www.tegal-1337.com/2020/01/meremote-sebuah-website-menggunakan.html</li>
+   <li>https://tegalsec.org/2020/01/meremote-sebuah-website-menggunakan.html</li>
 </ul>
 
 ### Contact :
