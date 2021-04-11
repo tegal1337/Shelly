@@ -64,7 +64,7 @@ SecFilterScanPOST Off
 
 ### Artikel :
 <ul>
-   <li>https://tegalsec.org/2020/01/meremote-sebuah-website-menggunakan.html</li>
+   <li>https://tegalsec.org/meremote-sebuah-website-menggunakan-backdoor-python/</li>
 </ul>
 
 ### Contact :
