@@ -71,3 +71,7 @@ SecFilterScanPOST Off
 <ul>
   <li> Email : van@tegalsec.org</li>
 </ul>
+
+### Support our organization by giving donations
+
+[![Foo](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://paypal.me/dalpan)
