@@ -64,7 +64,7 @@ SecFilterScanPOST Off
 
 ### Artikel :
 <ul>
-   <li>https://tegalsec.org/meremote-sebuah-website-menggunakan-backdoor-python/</li>
+   <li>https://blog.tegalsec.org/meremote-sebuah-website-menggunakan-backdoor-python/</li>
 </ul>
 
 ### Contact :
